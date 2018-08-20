@@ -1,0 +1,157 @@
+/*CSS Udacity Portfolio*/
+
+/*Typography*/
+html {
+  font-size: 16px;
+  font-family: serif;
+  max-width: 100%;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 1.75rem;
+  color: #FDAB2A;
+}
+
+h2 {
+  font-size: 1.65rem;
+  color: #02b3e4;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+  color: #FDAB2A;
+}
+
+/*Navbar*/
+nav.navbar.navbar-inverse {
+  margin-bottom: -1rem;
+}
+
+ul.navbar.navbar-nav {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar img {
+  max-height: 3.5rem;
+}
+
+#name {
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  margin-right: 2%;
+}
+
+/*About Section*/
+#about {
+  background-color: #7d97ad;
+}
+
+/*Portfolio Section*/
+#portfolio figure {
+  padding: 1.5rem 1rem 0rem 1rem;
+  text-align: center;
+}
+
+#portfolio img {
+  max-width: 10rem;
+  max-height: 6rem;
+  min-height: 3.5rem;
+  vertical-align: baseline;
+}
+
+#portfolio figure h4 {
+  vertical-align: top;
+}
+
+#portfolio ul {
+  list-style: none;
+}
+
+/*Contact Section*/
+#contact img {
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  display: inline-block;
+}
+
+#contact p {
+  display: inline-block;
+  font-size: 0.65rem;
+}
+
+@media only screen and (min-width: 575px) {
+
+  /*Typography*/
+  h1 {
+    font-size 1.95rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1.35rem;
+  }
+
+  p,
+  li {
+    font-size: 1.15rem;
+  }
+
+  /*About Section*/
+  #about {
+    padding : 5% 7.5%;
+  }
+
+  #about .col-sm-12 {
+    margin-bottom: 2.25rem;
+  }
+
+  /*Portfolio Section*/
+  #portfolio ul  {
+    margin-left: 15%;
+    line-height: 2.5;
+  }
+
+  /*Contact Section*/
+  #contact .col-md-4 {
+    margin-left: 5%;
+  }
+
+  #contact p {
+    font-size: 1.15rem;
+  }
+
+}
+
+@media only screen and (min-width: 775px) {
+
+  /*Typography*/
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  p,
+  ul {
+    font-size: 1.35rem;
+  }
+
+  /*Portfolio margin adjustment*/
+  #portfolio {
+    margin-right: 7.5%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+
+  /*Portfolio Margins*/
+  #portfolio {
+    margin-right: 0;
+  }
+}
